@@ -1,0 +1,22 @@
+endpoint 
+port 8080 got on the console when running the code, 
+http://localhost:8080/sendAttachment 
+http://localhost:8080/send 
+
+Simple Mail
+
+{
+    "recipient" : "dbuild790@gmail.com",
+    "msgBody" : "This message to send simple email without attachment",
+    "subject" :"Send Mail"
+}
+
+
+Mail with Attachment
+
+{
+    "recipient" : "dbuild790@gmail.com",
+    "msgBody" : "This message to send email with attachment",
+    "subject" :"Send Attachment",
+    "attachment" : "C:/Users/821854/Downloads/Imawan Sobary 22042481 (2).pdf"
+}
